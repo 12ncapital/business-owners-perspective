@@ -1,0 +1,18 @@
+# Python実行キャッシュ
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# 出力成果物フォルダ（生成されたHTMLやGIFはGit管理外にする）
+output/
+!output/.gitkeep
+
+# OS一時ファイル
+.DS_Store
+Thumbs.db
+
+# エディタ設定
+.vscode/
+.idea/
