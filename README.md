@@ -110,4 +110,4 @@ python appendix_moat_tracker.py --focus 7203 --force-update
 
 ## License
 
-This project is licensed under the [MIT License](https://www.google.com/search?q=LICENSE).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
