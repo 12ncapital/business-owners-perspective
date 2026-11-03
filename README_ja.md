@@ -2,8 +2,6 @@
 
 <p align="left">
   <a href="https://www.amazon.co.jp/dp/B0HQ5FC5RV"><img src="https://img.shields.io/badge/Amazon-Kindle版で読む-FF9900?style=for-the-badge&logo=amazon&logoColor=white" alt="Amazon Kindle"></a>
-  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="MIT License"></a>
 </p>
 
 本書『ビジネスオーナーの視座』（*THE BUSINESS OWNER'S PERSPECTIVE*）の付録Pythonスクリプトおよび検証用データのリポジトリです。
