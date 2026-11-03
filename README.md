@@ -1,5 +1,17 @@
 # The Business Owner's Perspective: Moat Tracker
 
+<p align="left">
+  <a href="https://www.amazon.co.jp/dp/B0HQ5FC5RV"><img src="https://img.shields.io/badge/Amazon%20Japan-Available%20Now-FF9900?style=for-the-badge&logo=amazon&logoColor=white" alt="Amazon Japan"></a>
+  <img src="https://img.shields.io/badge/English%20Edition-Coming%20Soon-2ea44f?style=for-the-badge&logo=amazon&logoColor=white" alt="English Edition Coming Soon">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="MIT License"></a>
+</p>
+
+> **English Edition In Preparation**  
+> The original Japanese edition is available now on [Amazon.co.jp](https://www.amazon.co.jp/dp/B0HQ5FC5RV).  
+> The English edition of The Business Owner's Perspective is currently in preparation for global readers and will be available on Amazon Kindle.  
+> **Star / Watch this repository** to get notified of the English release!
+
 [ **[日本語版ドキュメントはこちら (README_ja.md)](README_ja.md)** ]
 
 Official Python companion script and financial dataset for the book ***THE BUSINESS OWNER'S PERSPECTIVE***.
