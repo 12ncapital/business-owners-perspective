@@ -2,9 +2,10 @@
 
 <p align="left">
   <a href="https://www.amazon.co.jp/dp/B0HQ5FC5RV"><img src="https://img.shields.io/badge/Amazon-Kindle版で読む-FF9900?style=for-the-badge&logo=amazon&logoColor=white" alt="Amazon Kindle"></a>
+  <a href="https://leanpub.com/beyond-the-random-walk"><img src="https://img.shields.io/badge/Leanpub-英語版（Early_Access）-2B7BB9?style=for-the-badge&logo=leanpub&logoColor=white" alt="Leanpub English Edition"></a>
 </p>
 
-本書『ビジネスオーナーの視座』（*THE BUSINESS OWNER'S PERSPECTIVE*）の付録Pythonスクリプトおよび検証用データのリポジトリです。
+本書『ビジネスオーナーの視座』（*THE BUSINESS OWNER'S PERSPECTIVE*）および続編（英語版）『*The Business Owner's Perspective: Beyond the Random Walk*』の公式付録Pythonスクリプトおよび検証用データのリポジトリです。
 
 金融庁の EDINET API を活用し、企業の長期財務データ（ROE、DOE等）を取得・可視化して、企業の「経済的な堀（モート）」の形成・拡大軌跡を状態空間上にアニメーション描画します。
 

@@ -2,19 +2,17 @@
 
 <p align="left">
   <a href="https://www.amazon.co.jp/dp/B0HQ5FC5RV"><img src="https://img.shields.io/badge/Amazon%20Japan-Available%20Now-FF9900?style=for-the-badge&logo=amazon&logoColor=white" alt="Amazon Japan"></a>
-  <a href="#english-edition-in-preparation"><img src="https://img.shields.io/badge/English%20Edition-Coming%20Soon-2ea44f?style=for-the-badge&logo=amazon&logoColor=white" alt="English Edition Coming Soon"></a>
+  <a href="https://leanpub.com/beyond-the-random-walk"><img src="https://img.shields.io/badge/Leanpub-Early%20Access%20(v0.3.0)-2B7BB9?style=for-the-badge&logo=leanpub&logoColor=white" alt="Leanpub Early Access"></a>
 </p>
 
-<a id="english-edition-in-preparation"></a>
+> **English Edition Now Available — Early Access (v0.3.0)**  
+> ***The Business Owner's Perspective: Beyond the Random Walk*** is now live on [Leanpub](https://leanpub.com/beyond-the-random-walk)!  
+> The original Japanese edition (*『ビジネスオーナーの視座』*) is also available on [Amazon.co.jp](https://www.amazon.co.jp/dp/B0HQ5FC5RV).  
+> **Star / Watch this repository** to get notified as new chapters and Python simulation appendices are released!
 
-> **English Edition In Preparation**  
-> The original Japanese edition is available now on [Amazon.co.jp](https://www.amazon.co.jp/dp/B0HQ5FC5RV).  
-> The English edition of The Business Owner's Perspective is currently in preparation for global readers and will be available on Amazon Kindle.  
-> **Star / Watch this repository** to get notified of the English release!
+[**[日本語版ドキュメントはこちら (README_ja.md)](README_ja.md)**]
 
-[ **[日本語版ドキュメントはこちら (README_ja.md)](README_ja.md)** ]
-
-Official Python companion script and financial dataset for the book ***THE BUSINESS OWNER'S PERSPECTIVE***.
+Official Python companion script and financial dataset for ***THE BUSINESS OWNER'S PERSPECTIVE*** and ***The Business Owner's Perspective: Beyond the Random Walk***.
 
 This tool extracts and visualizes long-term financial metrics (ROE, DOE, capital allocation) from Japan's Financial Services Agency (FSA) EDINET API (the Japanese counterpart to SEC EDGAR), plotting the trajectory and economic moat expansion of elite Japanese companies in state space.
 
