@@ -70,8 +70,11 @@ python appendix_moat_tracker.py --focus 6857
 
 Outputs will be saved directly into the `output/` directory:
 
-* `output/moat_animation_6857.html` (Interactive dynamic plot)
-* `output/moat_animation_6857.gif` (Time-series animation)
+* `output/moat_animation_6857_en.html` (Interactive dynamic plot)
+* `output/moat_animation_6857_en.gif` (Time-series animation)
+
+> **Language Options (`en` / `ja`):**  
+> English (`en`) is the default display language and appends `_en` to output filenames. To render Japanese labels and original filenames without `_en` (matching the Japanese edition), pass `--lang ja` or set the `MOAT_LANG=ja` environment variable (precedence: `--lang` > `MOAT_LANG` > `en`). Cached CSV files in `data/` are UTF-8 encoded, language-independent, and shared across both modes (note: they retain original Japanese metadata from EDINET, so open them in a UTF-8 editor or via Excel's **Data > From Text/CSV** import rather than double-clicking on Windows to avoid character encoding issues).
 
 ---
 
@@ -107,6 +110,7 @@ python appendix_moat_tracker.py --focus 7203 --force-update
 | `--outdir` | path | `output` | Directory for exported HTML and GIF files |
 | `--no-gif` | flag | off | Skip GIF generation (HTML only) |
 | `--no-html` | flag | off | Skip HTML generation (GIF only) |
+| `--lang` | string | `en` | Display language (`en` or `ja`; overrides `MOAT_LANG`. English mode appends `_en` to output filenames) |
 
 ---
 

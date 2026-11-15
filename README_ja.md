@@ -70,10 +70,20 @@ pip install -r requirements.txt
 引数にフォーカスしたい証券コード（`6857`）を指定して実行します。
 
 ```bash
-# アドバンテスト（6857）をフォーカスして描画
-python appendix_moat_tracker.py --focus 6857
-
+# アドバンテスト（6857）をフォーカスして描画（日本語表示）
+python appendix_moat_tracker.py --focus 6857 --lang ja
 ```
+
+> **ヒント：表示言語について**  
+> 本スクリプトの既定の表示言語は英語（`en`）であり、英語モードでは出力ファイル名に `_en` が付与されます（例：`output/moat_animation_6857_en.html`）。本書の図と同じ日本語表示および従来のファイル名にするには、上記のように `--lang ja` を指定します。毎回指定する代わりに、環境変数 `MOAT_LANG` に `ja` を設定しておくこともできます（優先順位：`--lang` > `MOAT_LANG` > 既定の `en`）。
+> ```bash
+> # Mac / Linux
+> export MOAT_LANG=ja
+>
+> # Windows (PowerShell)
+> $env:MOAT_LANG="ja"
+> ```
+> 以降のコマンド例には、環境変数を設定していない場合に備えて `--lang ja` を明記しています。なお、`data/` 配下のCSVキャッシュは言語に依存せず共通で利用できます。
 
 実行が完了すると、`output/` フォルダ配下に以下のファイルが生成されます。
 
@@ -107,13 +117,13 @@ $env:EDINET_API_KEY="あなたのAPIキー"
 
 ```bash
 # トヨタ（7203）を取得・解析
-python appendix_moat_tracker.py --focus 7203
+python appendix_moat_tracker.py --focus 7203 --lang ja
 
 # 既存のキャッシュデータを破棄して最新の有報から再取得する場合
-python appendix_moat_tracker.py --focus 7203 --force-update
+python appendix_moat_tracker.py --focus 7203 --lang ja --force-update
 
 # コマンドライン引数で直接キーを渡す場合
-python appendix_moat_tracker.py --focus 7203 --api-key "あなたのAPIキー"
+python appendix_moat_tracker.py --focus 7203 --lang ja --api-key "あなたのAPIキー"
 
 ```
 
@@ -133,6 +143,7 @@ python appendix_moat_tracker.py --focus 7203 --api-key "あなたのAPIキー"
 | `--outdir` | パス | `output` | 生成されるHTMLやGIFの保存先フォルダ |
 | `--no-gif` | フラグ | オフ | GIFアニメーションの生成をスキップ（HTMLのみ高速出力） |
 | `--no-html` | フラグ | オフ | HTMLの生成をスキップ（GIFのみ出力） |
+| `--lang` | 文字列 | `en` | 表示言語（`en` または `ja`。環境変数 `MOAT_LANG` より優先。英語時はファイル名に `_en` を付与） |
 
 ---
 
