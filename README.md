@@ -2,10 +2,10 @@
 
 <p align="left">
   <a href="https://www.amazon.co.jp/dp/B0HQ5FC5RV"><img src="https://img.shields.io/badge/Amazon%20Japan-Available%20Now-FF9900?style=for-the-badge&logo=amazon&logoColor=white" alt="Amazon Japan"></a>
-  <a href="https://leanpub.com/beyond-the-random-walk"><img src="https://img.shields.io/badge/Leanpub-Early%20Access%20(v0.3.0)-2B7BB9?style=for-the-badge&logo=leanpub&logoColor=white" alt="Leanpub Early Access"></a>
+<a href="https://leanpub.com/beyond-the-random-walk"><img src="https://img.shields.io/badge/Leanpub-Early%20Access%20(v0.5.0)-2B7BB9?style=for-the-badge&logo=leanpub&logoColor=white" alt="Leanpub Early Access"></a>
 </p>
 
-> **English Edition Now Available — Early Access (v0.3.0)**  
+> **English Edition Now Available — Early Access (v0.5.0 / Chapter 2 Added)**  
 > ***The Business Owner's Perspective: Beyond the Random Walk*** is now live on [Leanpub](https://leanpub.com/beyond-the-random-walk)!  
 > The original Japanese edition (*『ビジネスオーナーの視座』*) is also available on [Amazon.co.jp](https://www.amazon.co.jp/dp/B0HQ5FC5RV).  
 > **Star / Watch this repository** to get notified as new chapters and Python simulation appendices are released!
