@@ -2,10 +2,10 @@
 
 <p align="left">
   <a href="https://www.amazon.co.jp/dp/B0HQ5FC5RV"><img src="https://img.shields.io/badge/Amazon-Kindle版で読む-FF9900?style=for-the-badge&logo=amazon&logoColor=white" alt="Amazon Kindle"></a>
-  <a href="https://leanpub.com/beyond-the-random-walk"><img src="https://img.shields.io/badge/Leanpub-英語版_Early_Access_(v0.5.0)-2B7BB9?style=for-the-badge&logo=leanpub&logoColor=white" alt="Leanpub English Edition"></a>
+  <a href="https://leanpub.com/beyond-the-random-walk"><img src="https://img.shields.io/badge/Leanpub-英語版_Early_Access_(v0.6.7)-2B7BB9?style=for-the-badge&logo=leanpub&logoColor=white" alt="Leanpub English Edition"></a>
 </p>
 
-> **📘 英語版（続編・拡張版）を Leanpub にて順次公開中 — Early Access (v0.5.0 / 第2章まで収録)**  
+> **📘 英語版（続編・拡張版）を Leanpub にて順次公開中 — Early Access (v0.6.7 / 第3章まで収録)**  
 > [***The Business Owner's Perspective: Beyond the Random Walk***](https://leanpub.com/beyond-the-random-walk) は、日本語版『ビジネスオーナーの視座』をベースに状態空間モデルや制御理論の数理的アプローチを深掘りした英語版の拡張・続編です（販売ページから**無料サンプル PDF / EPUB** をダウンロードできます）。  
 > 新章の追加やシミュレーションコードの更新通知を受け取りたい方は、ぜひ本リポジトリの **Star / Watch** をお願いします！
 
